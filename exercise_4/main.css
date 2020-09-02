@@ -1,0 +1,46 @@
+body {
+    display: grid;
+    margin: 8px;
+    border: 8px solid grey;
+    border-radius: 5px;
+    grid-template-rows: repeat (5, 1fr);
+    grid-template-columns: repeat (4, 1fr);
+    gap: 5px;
+    padding: 5px;
+}
+
+.item {
+    border-radius: 5px;
+}
+
+
+
+
+header {
+    background-color: rgb(255, 255, 140);
+    grid-column: 1/span4;
+}
+
+nav {
+    background-color: rgb(201, 140, 201);
+}
+
+aside {
+    background-color: rgb(102, 252, 189);
+}
+
+.aside1 {
+    grid-area: 2/4/5/5;
+}
+
+main {
+    background-color: rgb(255, 217, 122);
+}
+
+section {
+    background-color: rgb(199, 0, 199);
+}
+
+footer {
+    background-color: rgb(199, 118, 199);
+}
